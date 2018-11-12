@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textTitleDebugButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Debug buttons"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_weight="0.5"
+            android:layout_height="300dp"
+            android:layout_width="wrap_content"
+
+            android:gravity="bottom"/>
+
+        <TableLayout
+            android:id="@+id/tableButtons"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="0dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/buttonStart"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickStart"
+                    android:text="Begin"
+                    android:textSize="@dimen/debugTextSize"
+
+                    tools:textColor="@color/colorAccent"/>
+
+                <Button
+                    android:id="@+id/buttonClear"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickClear"
+                    android:text="Clear"
+                    android:textSize="@dimen/debugTextSize"
+                    tools:textColor="@color/colorAccent"/>
+
+                <Button
+                    android:id="@+id/buttonStop"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/debugTextSize"
+                    android:onClick="onClickStop"
+                    android:text="Stop"
+                    tools:textColor="@color/colorAccent"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/buttonDown"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickDown"
+                    android:text="test Volume -"
+                    android:textSize="@dimen/debugTextSize"/>
+
+                <Button
+                    android:id="@+id/buttonMute"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickMute"
+                    android:text="test Mute"
+                    android:textSize="@dimen/debugTextSize"/>
+
+                <Button
+                    android:id="@+id/buttonUp"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickUp"
+                    android:text="test Volume +"
+                    android:textSize="@dimen/debugTextSize"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/skip_prev_button"
+                    android:layout_weight="0.15"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:filterTouchesWhenObscured="false"
+                    android:onClick="onSkipPreviousButtonClicked"
+                    android:text="test Prev"
+                    android:textSize="@dimen/debugTextSize"/>
+
+                <Button
+                    android:id="@+id/skip_next_button"
+                    android:layout_weight="0.15"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:filterTouchesWhenObscured="false"
+                    android:onClick="onSkipNextButtonClicked"
+                    android:text="test next"
+                    android:textSize="@dimen/debugTextSize"/>
+
+                <Button
+                    android:id="@+id/buttonHome"
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickHome"
+                    android:text="test HOME"
+                    android:textSize="@dimen/debugTextSize"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/skip_prev_button"
+                    android:layout_weight="0.15"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:filterTouchesWhenObscured="false"
+                    android:onClick="onClickStartService"
+                    android:text="start Service"
+                    android:textSize="@dimen/debugTextSize"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+</LinearLayout>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

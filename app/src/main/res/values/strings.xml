@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Arbaroen</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_header_title">Arbaroen</string>
+    <string name="nav_header_subtitle">jean@up-ri.se</string>
+    <string name="nav_header_desc">Rotary encoders for playback control</string>
+    <string name="action_settings">Credits</string>
+</resources>

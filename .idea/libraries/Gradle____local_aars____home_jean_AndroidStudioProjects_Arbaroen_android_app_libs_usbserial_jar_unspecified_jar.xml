@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/home/jean/AndroidStudioProjects/Arbaroen-android/app/libs/usbserial.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/usbserial.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
