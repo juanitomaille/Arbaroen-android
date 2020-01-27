@@ -29,11 +29,11 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_weight="0.5"
-            android:layout_height="300dp"
             android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_weight="0.5"
 
-            android:gravity="bottom"/>
+            android:gravity="bottom" />
 
         <TableLayout
             android:id="@+id/tableButtons"
@@ -48,34 +48,34 @@
 
                 <Button
                     android:id="@+id/buttonStart"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:onClick="onClickStart"
                     android:text="Begin"
-                    android:textSize="@dimen/debugTextSize"
+                    android:textSize="14sp"
 
-                    tools:textColor="@color/colorAccent"/>
+                    tools:textColor="@color/colorAccent" />
 
                 <Button
                     android:id="@+id/buttonClear"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:onClick="onClickClear"
                     android:text="Clear"
-                    android:textSize="@dimen/debugTextSize"
-                    tools:textColor="@color/colorAccent"/>
+                    android:textSize="14sp"
+                    tools:textColor="@color/colorAccent" />
 
                 <Button
                     android:id="@+id/buttonStop"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/debugTextSize"
+                    android:layout_weight="0.15"
                     android:onClick="onClickStop"
                     android:text="Stop"
-                    tools:textColor="@color/colorAccent"/>
+                    android:textSize="14sp"
+                    tools:textColor="@color/colorAccent" />
 
             </TableRow>
 
@@ -86,30 +86,30 @@
 
                 <Button
                     android:id="@+id/buttonDown"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:onClick="onClickDown"
                     android:text="test Volume -"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
                 <Button
                     android:id="@+id/buttonMute"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:onClick="onClickMute"
                     android:text="test Mute"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
                 <Button
                     android:id="@+id/buttonUp"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:onClick="onClickUp"
                     android:text="test Volume +"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
             </TableRow>
 
@@ -119,32 +119,32 @@
 
                 <Button
                     android:id="@+id/skip_prev_button"
-                    android:layout_weight="0.15"
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:filterTouchesWhenObscured="false"
                     android:onClick="onSkipPreviousButtonClicked"
                     android:text="test Prev"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
                 <Button
                     android:id="@+id/skip_next_button"
-                    android:layout_weight="0.15"
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:filterTouchesWhenObscured="false"
                     android:onClick="onSkipNextButtonClicked"
                     android:text="test next"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
                 <Button
                     android:id="@+id/buttonHome"
-                    android:layout_weight="0.15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:onClick="onClickHome"
                     android:text="test HOME"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
             </TableRow>
             <TableRow
@@ -153,13 +153,13 @@
 
                 <Button
                     android:id="@+id/skip_prev_button"
-                    android:layout_weight="0.15"
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
                     android:filterTouchesWhenObscured="false"
                     android:onClick="onClickStartService"
                     android:text="start Service"
-                    android:textSize="@dimen/debugTextSize"/>
+                    android:textSize="14sp" />
 
             </TableRow>
 

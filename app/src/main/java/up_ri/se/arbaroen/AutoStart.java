@@ -11,7 +11,7 @@ public class AutoStart extends BroadcastReceiver
     @Override
     public void onReceive(Context context, Intent intent)
     {
-        //Toast.makeText(context, "Boot finished -> launch buttons", Toast.LENGTH_LONG).show();
+        Toast.makeText(context, "Boot finished -> launch buttons", Toast.LENGTH_LONG).show();
 
         //---start the service activity of the app---
         Intent i = new Intent(context, service.class);

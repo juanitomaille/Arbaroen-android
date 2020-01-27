@@ -114,13 +114,13 @@ public class service extends Service
     public void onCreate() {
         super.onCreate();
         //Toast.makeText(this, "My Service created", Toast.LENGTH_LONG).show();
-        Log.d("TAG", "Service created.");
+        Log.d("TAG", "Buttons Service created.");
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d("TAG", "Service started.");
-        //Toast.makeText(this, "My Service started", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Buttons Service started", Toast.LENGTH_LONG).show();
 
         usbManager = (UsbManager) getSystemService(USB_SERVICE);
         myAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
@@ -280,6 +280,7 @@ public class service extends Service
                 while( deviceIterator.hasNext() ) {
                     UsbDevice device = deviceIterator.next();
                     if ( device.getVendorId() == 0x1a86 ) {
+                        Toast.makeText(this, "Found Arduino device", Toast.LENGTH_LONG).show();
                         service.grantDevicePermission( device, ai.uid );
                         service.setDevicePackage( device, "up_ri.se.arbaroen", ai.uid );
                     }
