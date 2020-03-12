@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Arbaroen-android.iml" filepath="$PROJECT_DIR$/Arbaroen-android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/examplestreams/examplestreams.iml" filepath="$PROJECT_DIR$/examplestreams/examplestreams.iml" />
-      <module fileurl="file://$PROJECT_DIR$/examplesync/examplesync.iml" filepath="$PROJECT_DIR$/examplesync/examplesync.iml" />
-      <module fileurl="file://$PROJECT_DIR$/usbserial/usbserial.iml" filepath="$PROJECT_DIR$/usbserial/usbserial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arbaroen-android.iml" filepath="$PROJECT_DIR$/Arbaroen-android.iml" group="Arbaroen-android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Arbaroen-android/app" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" group="Arbaroen-android/example" />
+      <module fileurl="file://$PROJECT_DIR$/examplestreams/examplestreams.iml" filepath="$PROJECT_DIR$/examplestreams/examplestreams.iml" group="Arbaroen-android/examplestreams" />
+      <module fileurl="file://$PROJECT_DIR$/examplesync/examplesync.iml" filepath="$PROJECT_DIR$/examplesync/examplesync.iml" group="Arbaroen-android/examplesync" />
+      <module fileurl="file://$PROJECT_DIR$/usbserial/usbserial.iml" filepath="$PROJECT_DIR$/usbserial/usbserial.iml" group="Arbaroen-android/usbserial" />
     </modules>
   </component>
 </project>
